@@ -33,8 +33,8 @@ func main() {
 
 	s, err := findPair.FindPair(data, toSpend)
 	if err != nil {
-		log.Fatal(err)
+		log.Print("Not possible")
+	} else {
+		log.Printf("%s, %s\n", s.First, s.Second)
 	}
-
-	log.Printf("%s, %s\n", s.First, s.Second)
 }
