@@ -23,10 +23,18 @@ $ cat prices.txt
 
 Candy Bar, 500 Paperback Book, 700 Detergent, 1000 Headphones, 1400 Earmuffs, 2000 Bluetooth Stereo, 6000
 
-$ find-pair prices.txt 2500 Candy Bar 500, Earmuffs 2000
+$ find-pair prices.txt 2500 
 
-$ find-pair prices.txt 2300 Paperback Book 700, Headphones 1400
+Candy Bar 500, Earmuffs 2000
 
-$ find-pair prices.txt 10000 Earmuffs 2000, Bluetooth Stereo 6000
+$ find-pair prices.txt 2300 
 
-$ find-pair prices.txt 1100 Not possible
+Paperback Book 700, Headphones 1400
+
+$ find-pair prices.txt 10000 
+
+Earmuffs 2000, Bluetooth Stereo 6000
+
+$ find-pair prices.txt 1100 
+
+Not possible
