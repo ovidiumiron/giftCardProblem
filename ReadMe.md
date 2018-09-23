@@ -18,6 +18,7 @@ Write a program to find the best two items. It takes two inputs:
 If no two items have a sum that is less than or equal to the balance on the gift card, print “Not possible”. You don’t have to return every possible pair that is under the balance, just one such pair.
 
 Example:
+
 $ cat prices.txt
 
 Candy Bar, 500 Paperback Book, 700 Detergent, 1000 Headphones, 1400 Earmuffs, 2000 Bluetooth Stereo, 6000
